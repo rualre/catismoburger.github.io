@@ -1,0 +1,100 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+h1 {
+    margin-bottom: 0.5rem;
+}
+p {
+    margin-top: 0.5rem;
+    color: #d4af37;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 250px;
+}
+nav {
+    background-color: #000000;
+    padding: 0.5rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-section {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+.menu-section h2 {
+    color: #d4af37;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 0.5rem;
+}
+.menu-item {
+    margin-bottom: 1.5rem;
+}
+.menu-item h3 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+.menu-item a {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.menu-item a:hover {
+    background-color: #b29329;
+}
+ .menu-image {
+    width: 170px;
+    border-radius: 10px; /* Esto redondeará las esquinas de la imagen */
+    box-shadow: 0 0 10px 5px rgba(212, 175, 55, 0.5); /* Esto crea el efecto difuminado */
+    transition: box-shadow 0.3s ease; /* Esto suaviza los cambios en el efecto */
+}
+
+.menu-item .menu-image:hover {
+    box-shadow: 0 0 15px 8px rgba(212, 175, 55, 0.7); /* Efecto más intenso al pasar el mouse */
+}
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
