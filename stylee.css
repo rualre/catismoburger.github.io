@@ -92,8 +92,8 @@ nav ul li a {
     box-shadow: 0 0 15px 8px rgba(212, 175, 55, 0.7); /* Efecto más intenso al pasar el mouse */
 }
 footer {
-    background-color: #1a1a1a;
-    color: #fff;
+    background-color: #000000;
+    color: #d4af37;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
