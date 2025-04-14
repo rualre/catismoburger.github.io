@@ -2,7 +2,7 @@
             font-family: 'Times New Roman', Times, serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #646464;
         }
         header {
             background-color: #000000;
@@ -51,10 +51,11 @@
             background-color: rgb(0, 0, 0);
             padding: 2rem;
             color: #fff;
+            width: 45%;
             text-align: center;
             border-radius: 10px; /* Esto redondeará las esquinas de la imagen */
-            box-shadow: 0 0 10px 5px  #d4af37; /* Esto crea el efecto difuminado */
-            transition: box-shadow 0.3s ease; /* Esto suaviza los cambios en el efecto */
+            box-shadow: 0 0 10px 15px  #fff; /* Esto crea el efecto difuminado */
+            transition: box-shadow 1.4s ease; /* Esto suaviza los cambios en el efecto */
         }
         .menu {
             display: grid;
@@ -69,8 +70,9 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .menu-section h2 {
-            color: #d4af37;
-            border-bottom: 2px solid #d4af37;
+            color: #000000;
+            text-align: center;
+            border-bottom: 2px solid #666;
             padding-bottom: 0.5rem;
         }
         .menu-item {
@@ -87,9 +89,13 @@
         }
         footer {
             background-color: #000000;
-            color: #d4af37;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
+            color: #fff;
+            width: auto;
+        }
+        .logo{
+            border-radius: 100%;
+            box-shadow: 0 0 10px 15px  #666; /* Esto crea el efecto difuminado */
+            transition: box-shadow 1.4s ease; /* Esto suaviza los cambios en el efecto */
+
         }
     
